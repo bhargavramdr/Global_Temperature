@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Temperature </title>
+</head>
+
+<body background="static\image.jfif">
+
+    <div style="color:rgb(0, 89, 255)">
+        <form action="{{ url_for('predict')}}" method="post">
+
+            <h2>Global Temperature Predictor</h2>
+
+            <h3>Average Land Temperature in °C (eg: 42)</h3>
+            <input id="first" name="LandAverageTemperature" type="number">
+
+            <h3>Land Maximum Temperature in °C</h3>
+            <input id="second" name="LandMaxTemperature" type="number">
+
+            <h3>Land Minimum Temperature in °C</h3>
+            <input id="third" name="LandMinTemperature" type="number">
+
+
+
+            <br><br><button id="sub" type="submit ">The Global Temperature\</button>
+            <br>
+
+        </form>
+
+
+
+        <br><br>
+        <h3>{{prediction_text}}<h3>
+    </div>
+
+
+
+
+</body>
+
+</html>
