@@ -45,4 +45,4 @@ About 99 percent Accurate predictor of the Global Temperature.
 ![image](https://user-images.githubusercontent.com/72303641/138691089-8ca4ca1f-51e9-45df-9f9d-1ee9dea87d69.png)
 
 
-**Accuracy of 99.6 is not at all bad!**
+**Accuracy of 99.6 is not at all bad! **
