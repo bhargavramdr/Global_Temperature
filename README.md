@@ -32,6 +32,7 @@ About 99 percent Accurate predictor of the Global Temperature.
 ![image](https://user-images.githubusercontent.com/72303641/138691000-22d6bf88-e28a-40f0-abad-0898140c7c3a.png)
 
 ## Test train split
+
 ![image](https://user-images.githubusercontent.com/72303641/138691036-f7725c44-9715-4c0c-8461-db196c75ff28.png)
 
 ## Baseline Mean Absolute Error
